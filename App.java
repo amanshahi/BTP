@@ -361,9 +361,9 @@ public class App implements Runnable {
         int p1 = 900, p2 = 900, p3 = 14100, p4 = 4500;
         for (int i = 0; i < 4; i++) { // Placing the towers on the roads.
             if (i % 2 == 0) {
-                towers.add(new RSU[16]);
+                towers.add(new RSU[12]);
             } else {
-                towers.add(new RSU[5]);
+                towers.add(new RSU[4]);
             }
             // changed distance b/w RSUs to 900 from 1200
             for (int j = 0; j < towers.get(i).length; j++) {
